@@ -1,0 +1,58 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${env:IDF_PATH}/components",
+                "${env:IDF_PATH}/components/freertos/include",
+                "${env:IDF_PATH}/components/esp32/include",
+                "${env:IDF_PATH}/components/spi_flash/include",
+                "${env:IDF_PATH}/components/soc/include",
+                "${env:IDF_PATH}/components/soc/esp32/include",
+                "${env:IDF_PATH}/components/heap/include",
+                "${env:IDF_PATH}/components/driver/include",
+                "/usr/local/Cellar/xtensa-esp32-elf/1.22.0-73-ge28a011-5.2.0/libexec/xtensa-esp32-elf/include",
+                "/usr/local/Cellar/xtensa-esp32-elf/1.22.0-73-ge28a011-5.2.0/libexec/lib/gcc/xtensa-esp32-elf/5.2.0/include",
+                "${workspaceRoot}",
+                "${workspaceRoot}/build/include"
+            ],
+            "intelliSenseMode": "clang-x64",
+            "browse": {
+                "path": [
+                    "${env:IDF_PATH}/components",
+                    "${env:IDF_PATH}/components/freertos/include",
+                    "${workspaceRoot}"                        
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "macFrameworkPath": [
+            ]
+        },
+        {
+            "name": "Linux",
+            "includePath": [
+                "${env:IDF_PATH}/components",
+                "${workspaceRoot}"
+            ],
+            "intelliSenseMode": "clang-x64",
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            }
+        },
+        {
+            "name": "Win32",
+            "includePath": [
+                "${env:IDF_PATH}/components",
+                "${workspaceRoot}"
+            ],
+            "intelliSenseMode": "msvc-x64",
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            }
+        }
+    ],
+    "version": 3
+}

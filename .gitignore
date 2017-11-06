@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+
+# Generated files
+build
+sdkconfig*
